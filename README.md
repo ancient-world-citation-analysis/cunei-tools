@@ -133,6 +133,11 @@ The cuneiform-to-Unicode conversion pipeline builds on foundational work by Juli
 
 Sign list data comes from [Nuolenna](https://github.com/situx/Nuolenna) and [Akkademia](https://github.com/gaigutherz/Akkademia).
 
+
+## Team
+
+**Chuanjun Zhou** & **Adam Anderson**
+
 ## License
 
 MIT
