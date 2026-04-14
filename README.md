@@ -119,7 +119,7 @@ The tools are language-agnostic at their core — they work with any cuneiform s
 ## Citation
 
 ```bibtex
-@inproceedings{thompson-anderson-2026-script,
+@inproceedings{zhou-anderson-2026-script,
     title = "Does Script Representation Matter? Evidence from Three Cuneiform Languages",
     author = "Zhou, Chuanjun and Anderson, Adam",
     booktitle = "Proceedings of EMNLP 2026",
