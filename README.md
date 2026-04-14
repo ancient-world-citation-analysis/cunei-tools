@@ -2,7 +2,7 @@
 
 Cuneiform NLP utilities for word segmentation and script conversion across Akkadian, Sumerian, and Elamite.
 
-Developed as part of *"Does Script Representation Matter? Evidence from Three Cuneiform Languages"* (Thompson & Anderson, EMNLP 2026).
+Developed as part of *"Does Script Representation Matter? Evidence from Three Cuneiform Languages"* (Zhou & Anderson, EMNLP 2026).
 
 ## Installation
 
