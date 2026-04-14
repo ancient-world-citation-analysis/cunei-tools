@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "cunei-tools"
+version = "0.1.0"
+description = "Cuneiform NLP utilities: word segmentation and script conversion"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "CJ Thompson"},
+    {name = "Adam Anderson"},
+]
+keywords = ["cuneiform", "nlp", "segmentation", "akkadian", "sumerian", "elamite"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Text Processing :: Linguistic",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.optional-dependencies]
+convert = ["pandas"]
+all = ["pandas"]
+dev = ["pytest"]
+
+[project.scripts]
+cunei-seg = "cunei_tools.cli:seg_main"
+cunei-conv = "cunei_tools.cli:conv_main"
+
+[project.urls]
+Homepage = "git clone https://github.com/ancient-world-citation-analysis/cunei-tools"
+Paper = "https://arxiv.org/abs/TODO"
